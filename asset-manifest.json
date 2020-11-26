@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/interest-rate-graph/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/interest-rate-graph/static/js/main.7ed3670e.chunk.js",
-    "main.js.map": "/interest-rate-graph/static/js/main.7ed3670e.chunk.js.map",
+    "main.js": "/interest-rate-graph/static/js/main.364e0f8c.chunk.js",
+    "main.js.map": "/interest-rate-graph/static/js/main.364e0f8c.chunk.js.map",
     "runtime-main.js": "/interest-rate-graph/static/js/runtime-main.c33f2aff.js",
     "runtime-main.js.map": "/interest-rate-graph/static/js/runtime-main.c33f2aff.js.map",
     "static/js/2.4ae4677d.chunk.js": "/interest-rate-graph/static/js/2.4ae4677d.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.c33f2aff.js",
     "static/js/2.4ae4677d.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.7ed3670e.chunk.js"
+    "static/js/main.364e0f8c.chunk.js"
   ]
 }
