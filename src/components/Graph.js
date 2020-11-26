@@ -24,15 +24,24 @@ class Graph extends React.Component{
             datarows.forEach((item)=>{
                 let temp={};
                 temp.month=item[0];
+                // console.log(item[0],item[1],item[2]);
+                
                 temp.rate=item[1];
                 convertedValues[item[2]]=temp;
+                // console.log(temp);
             })
-            console.log(convertedValues);
-            this.setState({values:[...convertedValues]});
+            // console.log(convertedValues);
+            var finalValues=[];
+            for(let i=0;i<convertedValues.length;i++){
+                if(convertedValues[i]!=undefined){
+                    finalValues.push(convertedValues[i]);
+                }
+            }
+            this.setState({values:[...finalValues]});
         })
     }
     render (){
-        console.log(this.state.values);
+        // console.log(this.state.values);
             return (
                 <LineChart
                   width={1600}
@@ -42,11 +51,10 @@ class Graph extends React.Component{
                     top: 15, right: 10, left: 20, bottom: 5,
                   }}
                 >
-                  <CartesianGrid strokeDasharray="3 3" />
-                  <XAxis dataKey="month" />
+                  <CartesianGrid strokeDasharray="3 3"/>
+                  <XAxis dataKey="month"/>
                   <YAxis />
                   <Tooltip />
-                  
                   <Line type="monotone" dataKey="rate" stroke="#8884d8" activeDot={{ r: 8 }} />
                 </LineChart>
               );
