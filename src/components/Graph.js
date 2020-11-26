@@ -27,10 +27,12 @@ class Graph extends React.Component{
                 temp.rate=item[1];
                 convertedValues[item[2]]=temp;
             })
+            console.log(convertedValues);
             this.setState({values:[...convertedValues]});
         })
     }
     render (){
+        console.log(this.state.values);
             return (
                 <LineChart
                   width={1600}
