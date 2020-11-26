@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/interest-rate-graph/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/interest-rate-graph/static/js/main.539a254b.chunk.js",
+    "main.js.map": "/interest-rate-graph/static/js/main.539a254b.chunk.js.map",
+    "runtime-main.js": "/interest-rate-graph/static/js/runtime-main.c33f2aff.js",
+    "runtime-main.js.map": "/interest-rate-graph/static/js/runtime-main.c33f2aff.js.map",
+    "static/js/2.4ae4677d.chunk.js": "/interest-rate-graph/static/js/2.4ae4677d.chunk.js",
+    "static/js/2.4ae4677d.chunk.js.map": "/interest-rate-graph/static/js/2.4ae4677d.chunk.js.map",
+    "index.html": "/interest-rate-graph/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/interest-rate-graph/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.4ae4677d.chunk.js.LICENSE.txt": "/interest-rate-graph/static/js/2.4ae4677d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c33f2aff.js",
+    "static/js/2.4ae4677d.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.539a254b.chunk.js"
+  ]
+}
